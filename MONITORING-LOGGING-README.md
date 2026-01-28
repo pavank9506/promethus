@@ -57,7 +57,7 @@ Installing Prometheus manually is painful:
 - Build dashboards
 - Configure alerts
 
-👉 **kube-prometheus-stack solves all of this.**
+ **kube-prometheus-stack solves all of this.**
 
 ## Architecture (Simple View)
 
@@ -82,7 +82,6 @@ Kubernetes Cluster
 - **All auto-configured by the chart.**
 
 ## Key CRDs Introduced
-These are very important 👇
 
 - **ServiceMonitor**
   - Monitors Kubernetes Services
@@ -119,3 +118,4 @@ These are very important 👇
 - SRE alerting
 - DevOps observability
 - Platform teams
+
